@@ -1,12 +1,3 @@
-<html>
-    <body>
-        
-        
-    </body>    
-    
-</html>
-
-
 <?php
 if(isset($_GET['action']) && $_GET['action']=='logout') {
    $_SESSION = [];
