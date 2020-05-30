@@ -20,7 +20,7 @@
                     }
                   }
             }
-            if(!empty($_POST['position'])){
+            if(empty($_POST['position'])){
                 $position = 1;
             }else{
                 $position=$_POST['position']+1;
@@ -33,7 +33,7 @@
             $variantText.='<p>'.$row['Source'].'</p>';
             $variantText.='<img src=\''.$row['Image'].'\'>'; 
             $variants = explode('#', $row['Variant']);   
-            $variantText .= "<form action='index.php' method='post'>";
+            $variantText .= "<form action='index.php?p=englishtest-form' method='post'>";
                 foreach ($abc as $k => $v) {
                     if (!empty($variants[$k])) {
                         $id = $row['Id'].$v;
