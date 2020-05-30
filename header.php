@@ -44,8 +44,6 @@
         <a class="w3-bar-item w3-button active" title="Home" ><mark>Quiz Box</mark></a></li>           
                <li> <nav id="mySidenav" class="w3-sidebar w3-collapse w3-white w3-card-2">
         <a class="w3-bar-item w3-button active" title="Home" href="index.php?p=index">Home</a></li>
-              <li><nav id="mySidenav" class="w3-sidebar w3-collapse w3-white w3-card-2">
-        <a class="w3-bar-item w3-button active" title="Subjects" href="index.php?p=subjects">Subjects</a></li>
               <li>  <nav id="mySidenav" class="w3-sidebar w3-collapse w3-white w3-card-2">
         <a class="w3-bar-item w3-button active" title="Contact" href="index.php?p=contact">Contact</a></li>
               <li><nav id="mySidenav" class="w3-sidebar w3-collapse w3-white w3-card-2">      
